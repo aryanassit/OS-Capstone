@@ -1,0 +1,6 @@
+algorithm,avg_waiting,avg_turnaround,avg_response,cpu_util,throughput,ctx_switches
+FCFS,60.47,71.47,60.47,100.0,0.0909,14
+SJF,42.4,53.4,42.4,100.0,0.0909,14
+SRTF,41.27,52.27,40.2,100.0,0.0909,17
+RR,88.0,99.0,19.33,100.0,0.0909,48
+PRIORITY,52.73,63.73,52.73,100.0,0.0909,14

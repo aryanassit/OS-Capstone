@@ -1,0 +1,36 @@
+{
+  "scheduling": {
+    "processes": [
+      {"pid": "P1", "arrival": 0, "burst": 8, "priority": 3},
+      {"pid": "P2", "arrival": 1, "burst": 4, "priority": 1},
+      {"pid": "P3", "arrival": 2, "burst": 9, "priority": 4},
+      {"pid": "P4", "arrival": 3, "burst": 5, "priority": 2}
+    ],
+    "quantum": 4
+  },
+  "memory": {
+    "reference_string": [7,0,1,2,0,3,0,4,2,3,0,3,2,1,2,0,1,7,0,1],
+    "frames": 3,
+    "max_frames": 7,
+    "partitions": [100, 500, 200, 300, 600],
+    "requests": [
+      {"pid": "M1", "size": 212}, {"pid": "M2", "size": 417},
+      {"pid": "M3", "size": 112}, {"pid": "M4", "size": 426}
+    ]
+  },
+  "deadlock": {
+    "available": [3, 3, 2],
+    "max": [[7,5,3],[3,2,2],[9,0,2],[2,2,2],[4,3,3]],
+    "allocation": [[0,1,0],[2,0,0],[3,0,2],[2,1,1],[0,0,2]],
+    "request": {"pid": 1, "vector": [1, 0, 2]},
+    "detection": {
+      "available": [0, 0, 0],
+      "allocation": [[0,1,0],[2,0,0],[3,0,3],[2,1,1],[0,0,2]],
+      "request": [[0,0,0],[2,0,2],[0,0,1],[1,0,0],[0,0,2]]
+    }
+  },
+  "storage": {
+    "requests": [98, 183, 37, 122, 14, 124, 65, 67],
+    "head": 53, "disk_size": 200, "direction": "up"
+  }
+}

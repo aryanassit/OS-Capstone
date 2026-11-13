@@ -1,0 +1,7 @@
+algorithm,total_movement,avg_seek
+FCFS,4134,137.8
+SSTF,721,24.03
+SCAN,744,24.8
+CSCAN,982,32.73
+LOOK,704,23.47
+CLOOK,934,31.13

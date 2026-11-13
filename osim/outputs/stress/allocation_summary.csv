@@ -1,0 +1,4 @@
+strategy,placed,failed,internal_frag,external_frag,util_pct
+first,7,3,532,289,56.79
+best,8,2,395,197,68.84
+worst,6,4,716,329,45.0

@@ -1,0 +1,4 @@
+algorithm,faults,hits,fault_pct
+FIFO,9,3,75.0
+LRU,10,2,83.33
+OPT,7,5,58.33

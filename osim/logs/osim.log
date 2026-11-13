@@ -1,0 +1,128 @@
+2026-11-13 04:05:02,188 | INFO    | runner | loaded config /home/claude/osim/data/sample_input.json
+2026-11-13 04:05:02,188 | INFO    | runner | scheduling run: 4 procs, best wait=SRTF
+2026-11-13 04:05:02,188 | INFO    | reporting | wrote /tmp/tmpe05ne5o_/scheduling_summary.csv
+2026-11-13 04:05:02,722 | INFO    | reporting | chart /tmp/tmpe05ne5o_/scheduling_metrics.png
+2026-11-13 04:05:02,926 | INFO    | reporting | chart /tmp/tmpe05ne5o_/scheduling_gantt.png
+2026-11-13 04:05:02,927 | INFO    | runner | page replacement run: faults={'FIFO': 15, 'LRU': 12, 'OPT': 9}
+2026-11-13 04:05:02,928 | INFO    | reporting | wrote /tmp/tmpe05ne5o_/page_replacement_summary.csv
+2026-11-13 04:05:02,928 | INFO    | reporting | wrote /tmp/tmpe05ne5o_/page_faults_vs_frames.csv
+2026-11-13 04:05:03,056 | INFO    | reporting | chart /tmp/tmpe05ne5o_/page_faults_vs_frames.png
+2026-11-13 04:05:03,057 | INFO    | runner | allocation run done
+2026-11-13 04:05:03,161 | INFO    | reporting | chart /tmp/tmpe05ne5o_/allocation_fragmentation.png
+2026-11-13 04:05:03,161 | INFO    | reporting | wrote /tmp/tmpe05ne5o_/allocation_summary.csv
+2026-11-13 04:05:03,161 | INFO    | runner | banker run: safe=True request=True
+2026-11-13 04:05:03,162 | INFO    | runner | detection run: {'deadlocked': True, 'processes': ['P1', 'P2', 'P3', 'P4']}
+2026-11-13 04:05:03,162 | INFO    | runner | disk run: best=SSTF
+2026-11-13 04:05:03,162 | INFO    | reporting | wrote /tmp/tmpe05ne5o_/disk_summary.csv
+2026-11-13 04:05:03,281 | INFO    | reporting | chart /tmp/tmpe05ne5o_/disk_head_movement.png
+2026-11-13 04:05:03,292 | INFO    | bridge | script sysinfo.sh ok
+2026-11-13 04:05:03,293 | INFO    | runner | batch complete -> /tmp/tmpe05ne5o_
+2026-11-13 04:05:03,296 | ERROR   | bridge | script live_processes.sh failed (2): N must be 1-100
+2026-11-13 04:05:03,342 | INFO    | runner | loaded config /home/claude/osim/data/sample_input.json
+2026-11-13 04:05:03,343 | INFO    | runner | disk run: best=SSTF
+2026-11-13 04:05:03,395 | ERROR   | main | disk: input file not found: /missing.json
+2026-11-13 04:05:03,413 | INFO    | bridge | script live_processes.sh ok
+2026-11-13 04:05:03,457 | ERROR   | main | validation: process list must be a non-empty list
+2026-11-13 04:05:03,457 | INFO    | main | menu exit
+2026-11-13 04:05:03,464 | INFO    | runner | loaded config /home/claude/osim/data/stress_input.json
+2026-11-13 04:05:03,465 | INFO    | runner | scheduling run: 15 procs, best wait=SRTF
+2026-11-13 04:05:03,476 | INFO    | bridge | script sysinfo.sh ok
+2026-11-13 04:05:03,607 | INFO    | runner | loaded config data/sample_input.json
+2026-11-13 04:05:03,608 | INFO    | runner | scheduling run: 4 procs, best wait=SRTF
+2026-11-13 04:05:03,608 | INFO    | reporting | wrote outputs/sample/scheduling_summary.csv
+2026-11-13 04:05:04,160 | INFO    | reporting | chart outputs/sample/scheduling_metrics.png
+2026-11-13 04:05:04,360 | INFO    | reporting | chart outputs/sample/scheduling_gantt.png
+2026-11-13 04:05:04,362 | INFO    | runner | page replacement run: faults={'FIFO': 15, 'LRU': 12, 'OPT': 9}
+2026-11-13 04:05:04,362 | INFO    | reporting | wrote outputs/sample/page_replacement_summary.csv
+2026-11-13 04:05:04,362 | INFO    | reporting | wrote outputs/sample/page_faults_vs_frames.csv
+2026-11-13 04:05:04,487 | INFO    | reporting | chart outputs/sample/page_faults_vs_frames.png
+2026-11-13 04:05:04,487 | INFO    | runner | allocation run done
+2026-11-13 04:05:04,586 | INFO    | reporting | chart outputs/sample/allocation_fragmentation.png
+2026-11-13 04:05:04,586 | INFO    | reporting | wrote outputs/sample/allocation_summary.csv
+2026-11-13 04:05:04,586 | INFO    | runner | banker run: safe=True request=True
+2026-11-13 04:05:04,586 | INFO    | runner | detection run: {'deadlocked': True, 'processes': ['P1', 'P2', 'P3', 'P4']}
+2026-11-13 04:05:04,587 | INFO    | runner | disk run: best=SSTF
+2026-11-13 04:05:04,587 | INFO    | reporting | wrote outputs/sample/disk_summary.csv
+2026-11-13 04:05:04,705 | INFO    | reporting | chart outputs/sample/disk_head_movement.png
+2026-11-13 04:05:04,716 | INFO    | bridge | script sysinfo.sh ok
+2026-11-13 04:05:04,716 | INFO    | runner | batch complete -> outputs/sample
+2026-11-13 04:05:04,854 | INFO    | runner | loaded config data/stress_input.json
+2026-11-13 04:05:04,855 | INFO    | runner | scheduling run: 15 procs, best wait=SRTF
+2026-11-13 04:05:04,855 | INFO    | reporting | wrote outputs/stress/scheduling_summary.csv
+2026-11-13 04:05:05,374 | INFO    | reporting | chart outputs/stress/scheduling_metrics.png
+2026-11-13 04:05:05,778 | INFO    | reporting | chart outputs/stress/scheduling_gantt.png
+2026-11-13 04:05:05,781 | INFO    | runner | page replacement run: faults={'FIFO': 32, 'LRU': 30, 'OPT': 21}
+2026-11-13 04:05:05,781 | INFO    | reporting | wrote outputs/stress/page_replacement_summary.csv
+2026-11-13 04:05:05,781 | INFO    | reporting | wrote outputs/stress/page_faults_vs_frames.csv
+2026-11-13 04:05:05,901 | INFO    | reporting | chart outputs/stress/page_faults_vs_frames.png
+2026-11-13 04:05:05,902 | INFO    | runner | allocation run done
+2026-11-13 04:05:06,005 | INFO    | reporting | chart outputs/stress/allocation_fragmentation.png
+2026-11-13 04:05:06,005 | INFO    | reporting | wrote outputs/stress/allocation_summary.csv
+2026-11-13 04:05:06,005 | INFO    | runner | banker run: safe=False request=False
+2026-11-13 04:05:06,005 | INFO    | runner | detection run: {'deadlocked': True, 'processes': ['P0', 'P1', 'P2', 'P3', 'P5']}
+2026-11-13 04:05:06,006 | INFO    | runner | disk run: best=LOOK
+2026-11-13 04:05:06,006 | INFO    | reporting | wrote outputs/stress/disk_summary.csv
+2026-11-13 04:05:06,123 | INFO    | reporting | chart outputs/stress/disk_head_movement.png
+2026-11-13 04:05:06,134 | INFO    | bridge | script sysinfo.sh ok
+2026-11-13 04:05:06,134 | INFO    | runner | batch complete -> outputs/stress
+2026-11-13 04:05:06,275 | INFO    | runner | loaded config data/belady_input.json
+2026-11-13 04:05:06,276 | INFO    | runner | scheduling run: 4 procs, best wait=SRTF
+2026-11-13 04:05:06,276 | INFO    | reporting | wrote outputs/belady/scheduling_summary.csv
+2026-11-13 04:05:06,873 | INFO    | reporting | chart outputs/belady/scheduling_metrics.png
+2026-11-13 04:05:07,083 | INFO    | reporting | chart outputs/belady/scheduling_gantt.png
+2026-11-13 04:05:07,084 | INFO    | runner | page replacement run: faults={'FIFO': 9, 'LRU': 10, 'OPT': 7}
+2026-11-13 04:05:07,084 | INFO    | reporting | wrote outputs/belady/page_replacement_summary.csv
+2026-11-13 04:05:07,084 | INFO    | reporting | wrote outputs/belady/page_faults_vs_frames.csv
+2026-11-13 04:05:07,217 | INFO    | reporting | chart outputs/belady/page_faults_vs_frames.png
+2026-11-13 04:05:07,217 | INFO    | runner | allocation run done
+2026-11-13 04:05:07,327 | INFO    | reporting | chart outputs/belady/allocation_fragmentation.png
+2026-11-13 04:05:07,328 | INFO    | reporting | wrote outputs/belady/allocation_summary.csv
+2026-11-13 04:05:07,328 | INFO    | runner | banker run: safe=True request=True
+2026-11-13 04:05:07,328 | INFO    | runner | detection run: {'deadlocked': True, 'processes': ['P1', 'P2', 'P3', 'P4']}
+2026-11-13 04:05:07,328 | INFO    | runner | disk run: best=SSTF
+2026-11-13 04:05:07,328 | INFO    | reporting | wrote outputs/belady/disk_summary.csv
+2026-11-13 04:05:07,437 | INFO    | reporting | chart outputs/belady/disk_head_movement.png
+2026-11-13 04:05:07,448 | INFO    | bridge | script sysinfo.sh ok
+2026-11-13 04:05:07,448 | INFO    | runner | batch complete -> outputs/belady
+2026-11-13 04:05:08,070 | INFO    | runner | loaded config /home/claude/osim/data/sample_input.json
+2026-11-13 04:05:08,070 | INFO    | runner | scheduling run: 4 procs, best wait=SRTF
+2026-11-13 04:05:08,070 | INFO    | reporting | wrote /tmp/tmpapzamsuk/scheduling_summary.csv
+2026-11-13 04:05:08,728 | INFO    | reporting | chart /tmp/tmpapzamsuk/scheduling_metrics.png
+2026-11-13 04:05:08,961 | INFO    | reporting | chart /tmp/tmpapzamsuk/scheduling_gantt.png
+2026-11-13 04:05:08,962 | INFO    | runner | page replacement run: faults={'FIFO': 15, 'LRU': 12, 'OPT': 9}
+2026-11-13 04:05:08,962 | INFO    | reporting | wrote /tmp/tmpapzamsuk/page_replacement_summary.csv
+2026-11-13 04:05:08,962 | INFO    | reporting | wrote /tmp/tmpapzamsuk/page_faults_vs_frames.csv
+2026-11-13 04:05:09,097 | INFO    | reporting | chart /tmp/tmpapzamsuk/page_faults_vs_frames.png
+2026-11-13 04:05:09,097 | INFO    | runner | allocation run done
+2026-11-13 04:05:09,207 | INFO    | reporting | chart /tmp/tmpapzamsuk/allocation_fragmentation.png
+2026-11-13 04:05:09,207 | INFO    | reporting | wrote /tmp/tmpapzamsuk/allocation_summary.csv
+2026-11-13 04:05:09,207 | INFO    | runner | banker run: safe=True request=True
+2026-11-13 04:05:09,207 | INFO    | runner | detection run: {'deadlocked': True, 'processes': ['P1', 'P2', 'P3', 'P4']}
+2026-11-13 04:05:09,208 | INFO    | runner | disk run: best=SSTF
+2026-11-13 04:05:09,208 | INFO    | reporting | wrote /tmp/tmpapzamsuk/disk_summary.csv
+2026-11-13 04:05:09,322 | INFO    | reporting | chart /tmp/tmpapzamsuk/disk_head_movement.png
+2026-11-13 04:05:09,333 | INFO    | bridge | script sysinfo.sh ok
+2026-11-13 04:05:09,333 | INFO    | runner | batch complete -> /tmp/tmpapzamsuk
+2026-11-13 04:05:09,337 | ERROR   | bridge | script live_processes.sh failed (2): N must be 1-100
+2026-11-13 04:05:09,385 | INFO    | runner | loaded config /home/claude/osim/data/sample_input.json
+2026-11-13 04:05:09,385 | INFO    | runner | disk run: best=SSTF
+2026-11-13 04:05:09,440 | ERROR   | main | disk: input file not found: /missing.json
+2026-11-13 04:05:09,456 | INFO    | bridge | script live_processes.sh ok
+2026-11-13 04:05:09,500 | ERROR   | main | validation: process list must be a non-empty list
+2026-11-13 04:05:09,501 | INFO    | main | menu exit
+2026-11-13 04:05:09,509 | INFO    | runner | loaded config /home/claude/osim/data/stress_input.json
+2026-11-13 04:05:09,509 | INFO    | runner | scheduling run: 15 procs, best wait=SRTF
+2026-11-13 04:05:09,521 | INFO    | bridge | script sysinfo.sh ok
+2026-11-13 04:05:09,901 | INFO    | runner | loaded config /home/claude/osim/data/sample_input.json
+2026-11-13 04:05:09,902 | INFO    | runner | scheduling run: 4 procs, best wait=SRTF
+2026-11-13 04:05:09,902 | INFO    | main | menu exit
+2026-11-13 04:05:10,101 | INFO    | runner | loaded config /home/claude/osim/data/sample_input.json
+2026-11-13 04:05:10,101 | INFO    | runner | banker run: safe=True request=True
+2026-11-13 04:05:10,101 | INFO    | main | menu exit
+2026-11-13 04:05:10,236 | ERROR   | main | validation: disk requests[2] must be <= 199, got 999
+2026-11-13 04:05:10,236 | ERROR   | main | validation: value must be an integer, got 'P1'
+2026-11-13 04:05:10,236 | INFO    | main | menu exit
+2026-11-13 04:05:10,335 | ERROR   | main | disk: input file not found: /missing.json
+2026-11-13 04:05:10,512 | INFO    | bridge | script sysinfo.sh ok
+2026-11-13 04:05:10,629 | INFO    | runner | loaded config data/sample_input.json
+2026-11-13 04:05:10,629 | INFO    | runner | disk run: best=SSTF
